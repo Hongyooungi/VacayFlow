@@ -7,3 +7,4 @@ an app that coordinates the flow of travel
 
 If you press the refresh button on the app, it randomly recommends a destination.
 
+![안드로이드02](https://github.com/user-attachments/assets/ec9c9046-cbdc-44b3-a761-43fe64565bb0)
