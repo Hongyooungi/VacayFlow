@@ -1,4 +1,6 @@
 package com.example.vacayflow.network;
+import androidx.annotation.Nullable;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
@@ -10,6 +12,7 @@ public interface KorPetTourService {
             @Query("MobileOS") String mobileOS,    // AND 또는 IOS
             @Query("MobileApp") String mobileApp,  // 앱 이름
             @Query("pageNo") int pageNo,           // 페이지 번호
-            @Query("numOfRows") int numOfRows      // 한 페이지당 결과 수
+            @Query("numOfRows") int numOfRows     // 한 페이지당 결과 수
     );
+
 }
